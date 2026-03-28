@@ -1,0 +1,43 @@
+# SupplyScout — Git Ignore
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+
+# Ephemeral workspace
+.tmp/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Supabase
+.supabase/
+
+# Coverage
+coverage/
+.coverage

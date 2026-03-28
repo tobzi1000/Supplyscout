@@ -1,0 +1,68 @@
+SupplyScout — Color & Design Theme
+Use a DHL-inspired dark theme with warm yellow and red accents throughout the entire app.
+Color Palette
+Backgrounds
+
+Page background: #0A0A08
+Card/surface: #141410
+Surface elevated: #1C1C16
+Sidebar: #0E0E0C
+
+Borders
+
+Default border: #2A2A22
+Border hover/light: #3A3A30
+
+Text
+
+Primary text: #F5F5F0 (warm white)
+Secondary/muted text: #9A9A8E
+Dim/placeholder text: #6A6A5E
+
+Accent Colors
+
+Primary accent (yellow): #FFCC00 — use for primary buttons, active states, highlights, badges, links, progress bars, focus rings
+Primary hover: #FFD633
+Secondary accent (red): #D40511 — use for destructive actions, alerts, upgrade CTAs, error states, important badges
+Secondary hover: #E8222E
+Headline gradient: linear-gradient(135deg, #FFCC00, #E8222E)
+
+Semantic Colors
+
+Success/green: #22C55E
+Warning: #F59E0B
+Error: #D40511 (same as secondary accent)
+
+Glow & Shadow Effects
+
+Yellow glow: rgba(255, 204, 0, 0.12)
+Yellow glow strong: rgba(255, 204, 0, 0.25)
+Red glow: rgba(212, 5, 17, 0.15)
+Green dim: rgba(34, 197, 94, 0.12)
+Card shadow: 0 4px 24px rgba(0, 0, 0, 0.3)
+
+Button Styles
+
+Primary button: bg #FFCC00, text #0A0A08 (dark text on yellow), hover #FFD633
+Secondary/ghost button: bg transparent, border #2A2A22, text #F5F5F0, hover border #3A3A30
+Destructive button: bg #D40511, text white, hover #E8222E
+Button text on yellow backgrounds must always be dark (#0A0A08) for contrast
+
+Typography
+
+Headings: Plus Jakarta Sans, weights 700-800
+Body: Plus Jakarta Sans, weights 400-500
+Code/monospace/URLs: JetBrains Mono
+Import: https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap
+
+Usage Rules
+
+All pricing "Most Popular" badges: yellow bg (#FFCC00) with dark text
+Feature checkmarks in pricing cards: yellow (#FFCC00) not green
+Section labels/eyebrows: yellow (#FFCC00)
+Active sidebar nav item: yellow text or yellow left border indicator
+Usage progress bars: yellow fill on dark track
+Free tier upgrade banners: red accent (#D40511) background or border
+Input focus state: yellow border with yellow glow ring
+Loading spinners: yellow (#FFCC00)
+Toast notifications: dark surface with yellow/red/green left border based on type
