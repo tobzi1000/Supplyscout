@@ -306,7 +306,7 @@ export default function LandingPage() {
                   id="hero-search"
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' && searchVal) {
-                      window.location.href = '/signup';
+                      window.location.href = `/results?q=${encodeURIComponent(searchVal)}`;
                     }
                   }}
                 />
@@ -315,7 +315,10 @@ export default function LandingPage() {
                 )}
                 <button
                   className={`btn btn-primary ${styles.searchBtn}`}
-                  onClick={() => (window.location.href = '/signup')}
+                  onClick={() => {
+                    const q = searchVal || (typedUrl || 'gymshark.com');
+                    window.location.href = `/results?q=${encodeURIComponent(q)}`;
+                  }}
                 >
                   Find Suppliers
                 </button>
